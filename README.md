@@ -56,9 +56,14 @@ For e.g. to add `morhetz/gruvbox`, add `Plug 'morhetz/gruvbox'`.
 call plug#begin("~/.config/nvim/plugged")
 
 Plug 'morhetz/gruvbox'
-Plug 'preservim
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
+
+Plug 'preservim/nerdtree'
 call plug#end()
+
+
 ```
 
 
