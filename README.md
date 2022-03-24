@@ -67,6 +67,6 @@ call plug#end()
 ```
 
 
-After making changes to `init.vim`, save the changes (`:w`) and source (`:source %`) the file.
+After making changes to `init.vim`, save the changes (`:w`) and install the plugins `:PlugInstall`
 
-Final step - `:PlugInstall` should do the trick of getting all the plugins.
+Final step -  source (`:source %`) the file.
