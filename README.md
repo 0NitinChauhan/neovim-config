@@ -53,15 +53,28 @@ For e.g. to add `morhetz/gruvbox`, add `Plug 'morhetz/gruvbox'`.
 
 
 ```
+"view settings                                                                                                                                                                                                                                  
+set number
+set ruler
+set nowrap
+set title
+set autoindent
+set cursorline          
+set tabstop=4           
+
+" plugins               
 call plug#begin("~/.config/nvim/plugged")
 
+" look & feel
 Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-
-
 Plug 'preservim/nerdtree'
 call plug#end()
+   
+colorscheme gruvbox
+set bg=dark
+
 
 
 ```
